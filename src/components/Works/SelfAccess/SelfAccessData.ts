@@ -22,7 +22,7 @@ export const SelfAccessSet: SelfAccessData[] = [
     repo : [
       {
         name: 'portfolio',
-        url: 'https://github.com/kshiva1126.com/portfolio',
+        url: 'https://github.com/kshiva1126/portfolio',
       }
     ]
   },
