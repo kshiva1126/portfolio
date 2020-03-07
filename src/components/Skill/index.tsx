@@ -10,9 +10,8 @@ import {
   SemanticShorthandItem,
   TabPaneProps
 } from "semantic-ui-react";
-import styled from "@emotion/styled";
 
-import { SkillSet, SkillData, Skills } from "./skillData";
+import { SkillSet, SkillData } from "./skillData";
 import { SemanticICONS } from "semantic-ui-react/dist/commonjs/generic";
 
 interface SkillListProps {

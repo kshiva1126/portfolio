@@ -1,7 +1,5 @@
 import React, { FC } from "react";
 
-import "./App.css";
-
 import Heading from "./components/Header";
 import About from "./components/About";
 import Skill from "./components/Skill";

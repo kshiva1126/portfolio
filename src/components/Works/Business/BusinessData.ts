@@ -48,7 +48,7 @@ export const BusinessSet: BusinessData[] = [
     id: 4,
     title: '大規模ECサイト サイトリニューアル',
     charge: '開発・単体テスト, シナリオテスト',
-    comment: '半年以上に渡るサイトリニューアルで開発を行いました。この案件でGitを使用したチーム開発の進め方を学ぶことができました。',
+    comment: '半年以上に渡るサイトリニューアルで開発を行いました。この案件でGitによる分散型のバージョン管理の概念と手法を学び、定着させることが出来ました。',
     period: '2018.09 ~ 2019.06',
     lang: 'PHP5.4, EC-CUBE2, JavaScript',
     db: 'MySQL5.6',
