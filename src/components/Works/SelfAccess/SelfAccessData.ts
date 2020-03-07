@@ -16,8 +16,8 @@ export const SelfAccessSet: SelfAccessData[] = [
   {
     id: 1,
     title: 'ポートフォリオ',
-    url: '',
-    image_path: '/images/portfolio.png',
+    url: '.',
+    image_path: './images/portfolio.png',
     comment: '自分の紹介用に開発しました。Reactを使用しています。',
     repo : [
       {
@@ -30,7 +30,7 @@ export const SelfAccessSet: SelfAccessData[] = [
     id: 2,
     title: 'Chiritsumo',
     url: 'https://chiritsumo.now.sh',
-    image_path: '/images/chiritsumo-top.png',
+    image_path: './images/chiritsumo-top.png',
     comment: `SNSのような軽い感覚で技術メモが残せるようなサービスを開発しました。また、バックエンドにLaravel、フロントエンドにReactを使用しています。`,
     repo: [
       {

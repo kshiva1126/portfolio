@@ -9,10 +9,10 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-responsive": "^8.0.1",
-    "react-scripts": "3.2.0",
+    "react-scripts": "3.4.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.1",
-    "typescript": "3.6.4"
+    "typescript": "3.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,5 +42,6 @@
     "@types/react-dom": "^16.9.5",
     "@types/react-responsive": "^8.0.2",
     "prettier": "^1.19.1"
-  }
+  },
+  "homepage": "./"
 }

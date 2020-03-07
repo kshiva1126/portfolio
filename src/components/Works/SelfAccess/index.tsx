@@ -16,9 +16,15 @@ const SelfAccessCard = (props: SelfAccessData) => {
         <Card.Header>{props.title}</Card.Header>
         <Card.Description>{props.comment}</Card.Description>
       </Card.Content>
+      <Card.Content extra>
+        <a href={props.url} target="_blank" rel="noopener noreferrer">
+          <Icon name="home" />
+          {props.title}
+        </a>
+      </Card.Content>
       {props.repo &&
-        props.repo.map(r => (
-          <Card.Content extra>
+        props.repo.map((r, index) => (
+          <Card.Content extra key={index}>
             <a href={r.url} target="_blank" rel="noopener noreferrer">
               <Icon name="github" />
               {r.name}

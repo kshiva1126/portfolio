@@ -17,10 +17,10 @@ const Sticky = styled.div`
 const Heading: FC = () => {
   return (
     <Sticky>
-      <MediaQuery query="(max-width: 767px)">
+      <MediaQuery query="(max-width: 799px)">
         <MobileHeading />
       </MediaQuery>
-      <MediaQuery query="(min-width: 768px)">
+      <MediaQuery query="(min-width: 800px)">
         <PCHeading />
       </MediaQuery>
       <Divider hidden />
